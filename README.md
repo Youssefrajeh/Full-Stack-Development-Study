@@ -192,7 +192,8 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## 👨‍💻 Author
 
-Created for INFO 3181 – Full Stack Development course.
+**Youssef Rajeh**  
+Created for INFO 3137 – Software Design Patterns course.
 
 ## 🎯 Learning Objectives
 
