@@ -962,6 +962,23 @@ function retakeQuiz() {
     document.getElementById('quizSettings').style.display = 'block';
 }
 
+function exitQuiz() {
+    // Show confirmation dialog
+    const confirmExit = confirm('Are you sure you want to exit the quiz? Your progress will be lost.');
+    
+    if (confirmExit) {
+        // Reset quiz data
+        currentQuestions = [];
+        currentQuestionIndex = 0;
+        userAnswers = [];
+        quizResults = [];
+        
+        // Hide quiz container and show quiz settings
+        document.getElementById('quizContainer').style.display = 'none';
+        document.getElementById('quizSettings').style.display = 'block';
+    }
+}
+
 // Utility Functions
 function shuffleArray(array) {
     const shuffled = [...array];

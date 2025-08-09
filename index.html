@@ -153,6 +153,9 @@
           </div>
 
           <div class="quiz-controls">
+            <button class="control-btn" id="nextBtn" onclick="nextQuestion()">
+              Next <i class="fas fa-chevron-right"></i>
+            </button>
             <button
               class="control-btn"
               id="prevBtn"
@@ -161,8 +164,8 @@
             >
               <i class="fas fa-chevron-left"></i> Previous
             </button>
-            <button class="control-btn" id="nextBtn" onclick="nextQuestion()">
-              Next <i class="fas fa-chevron-right"></i>
+            <button class="control-btn exit-btn" onclick="exitQuiz()">
+              <i class="fas fa-times"></i> Exit Quiz
             </button>
           </div>
         </div>
@@ -193,6 +196,14 @@
         </div>
       </div>
     </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; 2025 Youssef Rajeh. All rights reserved.</p>
+        <p>Created for INFO 3181 – Full Stack Development</p>
+      </div>
+    </footer>
 
     <script src="script.js"></script>
   </body>
